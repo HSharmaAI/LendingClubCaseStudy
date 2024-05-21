@@ -1,52 +1,30 @@
-# Project Name
-> Outline a brief description of your project.
-
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+# Loan Default Prediction using Exploratory Data Analysis
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+This project aims to understand the driving factors behind loan defaults by performing Exploratory Data Analysis (EDA) on the provided dataset. The objective is to identify patterns that indicate if a person is likely to default, which can be used for making informed decisions regarding loan approvals.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Business Problem
+The business problem this project addresses is twofold:
+1. If the applicant is likely to repay the loan, not approving the loan results in a loss of business to the company.
+2. If the applicant is not likely to repay the loan, approving the loan may lead to a financial loss for the company.
+
+## Dataset
+The dataset contains information about past loan applicants and their repayment status. It includes consumer attributes and loan attributes which influence the tendency to default.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- High loan amounts and low annual incomes are associated with higher default rates. Applicants with higher loan amounts and lower annual incomes tend to default more often.
+- Certain loan purposes, such as debt consolidation and small business, are associated with higher default rates.
+- Employment length and grade also show significant patterns in default rates. Longer employment length and higher loan grades correlate with lower default rates.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python
+- pandas
+- matplotlib
+- seaborn
+- openpyxl
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+This project was inspired by the need to minimize credit loss in financial services through effective risk analytics.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [Harshvardhan Sharma] - feel free to contact me!
